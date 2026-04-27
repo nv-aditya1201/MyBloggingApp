@@ -40,9 +40,9 @@ MyBloggingApp/
 │   │   └── favicon.ico
 │   │
 │   ├── src/
+│   │   ├── apiCalls/           # API integration logic
 │   │   ├── components/         # Reusable UI components
 │   │   ├── pages/              # Application pages
-│   │   ├── apiCalls/           # API integration logic
 │   │   ├── redux/              # State management
 │   │   ├── App.js
 │   │   └── index.js
@@ -51,12 +51,12 @@ MyBloggingApp/
 │
 ├── server/                     # Backend (Node.js + Express)
 │   ├── config/                 # Database & environment setup
-│   ├── models/                 # Mongoose schemas
-│   ├── routes/                 # API routes
-│   ├── controllers/            # Business logic
 │   ├── middlewares/            # Custom middleware
+│   ├── model/                  # Mongoose schemas
+│   ├── routes/                 # API routes
 │   ├── server.js               # Entry point
 │
+├── .gitignore
 ├── package.json
 ├── README.md
 └── .env                        # Environment variables
