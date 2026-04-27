@@ -33,12 +33,33 @@ A full-stack blogging platform that enables users to create, share, and interact
 ```Code snippet
 MyBloggingApp/
 │
-├── client/        # React frontend
-├── server/        # Node.js backend
-├── models/        # Database schemas
-├── routes/        # API routes
-├── controllers/   # Business logic
-└── config/        # DB & environment setup
+├── client/                     # Frontend (React)
+│   ├── public/                 # Static assets
+│   │   ├── images/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   │
+│   ├── src/
+│   │   ├── components/         # Reusable UI components
+│   │   ├── pages/              # Application pages
+│   │   ├── apiCalls/           # API integration logic
+│   │   ├── redux/              # State management
+│   │   ├── App.js
+│   │   └── index.js
+│   │
+│   └── package.json
+│
+├── server/                     # Backend (Node.js + Express)
+│   ├── config/                 # Database & environment setup
+│   ├── models/                 # Mongoose schemas
+│   ├── routes/                 # API routes
+│   ├── controllers/            # Business logic
+│   ├── middlewares/            # Custom middleware
+│   ├── server.js               # Entry point
+│
+├── package.json
+├── README.md
+└── .env                        # Environment variables
 ```
 
 ## ⚙️ Installation & Setup
