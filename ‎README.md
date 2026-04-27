@@ -30,6 +30,7 @@ A full-stack blogging platform that enables users to create, share, and interact
 * bcrypt (Password hashing)
 
 ## 📂 Project Structure
+```Code snippet
 MyBloggingApp/
 │
 ├── client/        # React frontend
@@ -38,6 +39,7 @@ MyBloggingApp/
 ├── routes/        # API routes
 ├── controllers/   # Business logic
 └── config/        # DB & environment setup
+```
 
 ## ⚙️ Installation & Setup
 ### 1️⃣ Clone the repository
