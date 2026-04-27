@@ -2,31 +2,30 @@
 A full-stack blogging platform that enables users to create, share, and interact with content in real time.
 
 ## 🚀 Features
-* ** ✍️ Create, edit, and delete blog posts
-* ** ❤️ Like and 💬 comment on posts
-* ** 🔐 User authentication & authorization
-* ** 🔔 Real-time updates using WebSockets
-* ** 📱 Responsive UI for seamless experience
-* ** 🧑‍🤝‍🧑 User interaction tracking and engagement
+* ✍️ Create, edit, and delete blog posts
+* ❤️ Like and 💬 comment on posts
+* 🔐 User authentication & authorization
+* 🔔 Real-time updates using WebSockets
+* 📱 Responsive UI for seamless experience
+* 🧑‍🤝‍🧑 User interaction tracking and engagement
 
 ## 🛠️ Tech Stack
-
-### Frontend
+**Frontend**
 * React.js
 * JavaScript (ES6+)
 * HTML5, CSS3
 
-### Backend
+**Backend**
 * Node.js
 * Express.js
 
-### Database
+**Database**
 * MongoDB
 
-### Real-Time
+**Real-Time**
 * Socket.io
 
-### Other Tools
+**Other Tools**
 * JWT (Authentication)
 * bcrypt (Password hashing)
 
