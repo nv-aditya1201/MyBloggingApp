@@ -65,7 +65,7 @@ MyBloggingApp/
 ## ⚙️ Installation & Setup
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/shreya-1634/MyBloggingApp.git
+git clone https://github.com/nv-aditya1201/MyBloggingApp.git
 cd MyBloggingApp
 ```
 ### 2. Install dependencies
